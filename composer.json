@@ -1,0 +1,33 @@
+{
+    "name": "elcweb/friendly-contexts",
+    "description": "Some BEHAT contexts",
+    "autoload": {
+        "psr-0": { "Elcweb\\FriendlyContexts": "src/"}
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "behat/behat": "~3.0",
+        "knplabs/friendly-contexts": ">=0.7",
+        "behat/mink-extension": "~2.0",
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev",
+        "doctrine/orm": "dev-master",
+        "knplabs/phpspec-welldone-extension": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elcweb.ca",
+            "homepage": "http://elcweb.ca"
+        },
+        {
+            "name": "Etienne Lachance",
+            "homepage": "https://github.com/estheban"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
