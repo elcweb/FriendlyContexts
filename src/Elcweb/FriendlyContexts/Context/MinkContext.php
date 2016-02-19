@@ -15,7 +15,7 @@ use Symfony\Component\HttpKernel\Profiler\Profile;
 
 /**
  * Class MinkContext
- * @package AppBundle\Tests
+ * @package Elcweb\FriendlyContexts\Context
  */
 class MinkContext extends KnpMinkContext implements ContextInterface
 {
